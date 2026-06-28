@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonnement</title>
+    <link rel="stylesheet" href="css/subscription.css">
+    <script src="/javascript/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-logo">
+            <a href="/index.html"><img src="img/ipfit_logo.png" height="60" alt="IPFIT"></a>
+        </div>
+        
+        <div class="nav-container">
+            <nav class="main-nav">
+                <a href="subscription.html">ABONNEMENTS</a>
+                <a href="clubs.html">NOS CLUBS</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="shop.html">BOUTIQUE</a>
+            </nav>
+        </div>
+        <div class="auth-container">
+            <nav class="auth-nav">
+                <a href="login.html" style="font-size: smaller; text-decoration: underline;">CONNEXION</a>
+                <a href="register.html" class="btn-register">INSCRIPTION</a>
+            </nav>
+        </div>
+    </header>
+    <section class="sub-banner">
+        <div class="sub-banner-text">
+            <h1 class="sub-banner-title">NOS ABONNEMENTS</h1>
+        </div>
+        <div class="toogle-button">
+            <button class="btn-toggle" id="btn-avec">AVEC ENGAGEMENT</button>
+            <button class="btn-toggle" id="btn-sans">SANS ENGAGEMENT</button>
+        </div>
+        <div class="sub-plans">
+            <div class="basic-plan">
+                <h2 class="plan-title">BASIC</h2>
+                <p class="plan-price">19,99€/mois</p>
+                <ul class="plan-features">
+                    <li class="plan-item">
+                        <span class="feature-title">Invités</span>
+                        <span class="feature-desc">Invite un proche à s'entraîner avec toi.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Espace bien-être</span>
+                        <span class="feature-desc">Zone détente selon disponibilité.</span>
+                    </li>
+                    <li class="plan-item disabled">
+                        <span class="feature-title">Accès à tous les clubs en France</span>
+                        <span class="feature-desc">Entraîne-toi partout en France.</span>
+                    </li>
+                    <li class="plan-item disabled">
+                        <span class="feature-title">Accès 24h/24 – 7j/7</span>
+                        <span class="feature-desc">Entraîne-toi quand tu veux.</span>
+                    </li>
+                    <li class="plan-item disabled">
+                        <span class="feature-title">Cours collectifs</span>
+                        <span class="feature-desc">Cours encadrés et motivants.</span>
+                    </li>
+                    <li class="plan-item disabled">
+                        <span class="feature-title">Cours premium</span>
+                        <span class="feature-desc">HIIT, boxing, cycling.</span>
+                    </li>
+                </ul>
+                <a href="subscription.html" class="btn-choose">CHOISIR CETTE OFFRE</a>
+            </div>
+            <div class="ultimate-plan">
+                <h2 class="plan-title">ULTIMATE</h2>
+                <p class="plan-price">39,99€/mois</p>
+                <ul class="plan-features">
+                    <li class="plan-item">
+                        <span class="feature-title">Accès à tous les clubs en France</span>
+                        <span class="feature-desc">Accès illimité dans tous les clubs IPFIT.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Accès 24h/24 – 7j/7</span>
+                        <span class="feature-desc">Entraîne-toi à toute heure.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Cours collectifs & premium</span>
+                        <span class="feature-desc">HIIT, boxing, cycling, cross-training.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Invités illimités</span>
+                        <span class="feature-desc">1 invité à la fois.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Espace bien-être</span>
+                        <span class="feature-desc">Récupération et relaxation selon club.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Coaching & priorité</span>
+                        <span class="feature-desc">1 bilan coach / trimestre + priorité cours.</span>
+                    </li>
+                </ul>
+                <a href="subscription.html" class="btn-choose">CHOISIR CETTE OFFRE</a>
+            </div>
+            <div class="comfort-plan">
+                <h2 class="plan-title">COMFORT</h2>
+                <p class="plan-price">29,99€/mois</p>
+                <ul class="plan-features">
+                    <li class="plan-item">
+                        <span class="feature-title">Accès à tous les clubs en France</span>
+                        <span class="feature-desc">Entraîne-toi partout en France.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Accès 24h/24 – 7j/7</span>
+                        <span class="feature-desc">Horaires étendus tous les jours.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Cours collectifs</span>
+                        <span class="feature-desc">Cours encadrés inclus.</span>
+                    </li>
+                    <li class="plan-item">
+                        <span class="feature-title">Invités</span>
+                        <span class="feature-desc">1 invité par mois.</span>
+                    </li>
+                    <li class="plan-item disabled">
+                        <span class="feature-title">Cours premium</span>
+                        <span class="feature-desc">HIIT, boxing, cycling.</span>
+                    </li>
+                    <li class="plan-item disabled">
+                        <span class="feature-title">Espace bien-être</span>
+                        <span class="feature-desc">Zone détente selon club.</span>
+                    </li>
+                </ul>
+                <a href="subscription.html" class="btn-choose">CHOISIR CETTE OFFRE</a>
+            </div>
+        </div>
+        <a href="register.html" class="btn-register-sub-banner">S'INSCRIRE</a>
+    </section>
+    <footer>
+    <div class="footer-columns">
+        <div>
+            <h3>IPFIT</h3>
+            <p>Le fitness nouvelle génération.</p>
+        </div>
+
+        <div>
+            <h3>Navigation</h3>
+            <a href="subscription.html">Abonnements</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="shop.html">Boutique</a>
+        </div>
+
+        <div>
+            <h3>Support</h3>
+            <a href="contact.html">Contact</a>
+            <a href="cgu.html">CGU</a>
+            <a href="privacy.html">Politique de confidentialité</a>
+        </div>
+    </div>
+
+    <p class="footer-bottom">© 2026 IPFIT — Tous droits réservés</p>
+</footer>
+</body>
+</html>
